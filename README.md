@@ -46,8 +46,17 @@
         - /redfish/v1/Managers/BMC/EthernetInterfaces
           - /redfish/v1/Managers/BMC/EthernetInterfaces/eth0
 
-
-
+## 功能
+ - Simulator 會讓 CPU Usage 自動波動，不是一個固定值
+ - CPU Temperature 變化，會根據CPU Utilization、Fan RPM 動態改變
+ - Fan PWM 自動調速，會根據CPU溫度而改變轉速
+ - System Power 變化
+ - PSU Input/Output Power會跟系統耗電同步
+ - Fan Failure(Recovery) 風扇失效(恢復)後Fan RPM = 0(跟溫度有關)，同時：Fan failure detected(Fan Recover)寫進 Event Log
+ - Thermal Shutdown 當cpu_temp > 100 會：system.power_state = "Off" 並產生：Thermal shutdown triggered
+ - Power Off Cooling 系統關機後：CPU 溫度會自動下降
+ - System Health 自動變化
+ - Event Log 自動產生，會自動記錄一些事件的發生
 
 
 
