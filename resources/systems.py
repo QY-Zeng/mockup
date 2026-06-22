@@ -23,8 +23,8 @@ from models.processor import cpu1
 
 from models.memory import memory
 from models.log_service import log_service, event_log_resource, event_log_entries
-
-
+from models.bios import bios
+from models.bios_settings import bios_settings
 
 bp = Blueprint(
     "systems",
@@ -241,7 +241,23 @@ def memory_detail(mem_id):
 
 
 
-    
+@bp.route(
+    "/redfish/v1/Systems/System1/Bios",
+    methods=["GET"]
+)
+def bios_resource():
 
+    return jsonify(
+        bios.to_redfish()
+    )    
 
+@bp.route(
+    "/redfish/v1/Systems/System1/Bios/Settings",
+    methods=["GET"]
+)
+def bios_settings_resource():
+
+    return jsonify(
+        bios_settings.to_redfish()
+    )
     
