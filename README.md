@@ -11,6 +11,7 @@
 
 
 ## 目前有的分支(還未寫完這邊的readme)(ok代表目前有寫、not是還沒寫)
+### 可以透過cmd 然後cd mockup 輸入curl http://127.0.0.1:5000/redfish/v1...來看json
   - redfish/v1
     - redfish/v1/Systems (ok)
       - redfish/v1/Systems/System1 (ok)
