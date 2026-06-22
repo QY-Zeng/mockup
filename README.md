@@ -7,10 +7,42 @@
   - Simple Rack-mounted Server
     - A typical 1U or 2U server intended for scale-out deployments.  
     - https://redfish.dmtf.org/redfish/mockups/v1/1819
-    - 
+    - 但是目前還缺不少分支
+
+
 ## 目前有的分支
   - redfish/v1
-    - redfish/v1/Systems
-      - redfish/v1/Systems/System1
+    - redfish/v1/Systems (ok)
+      - redfish/v1/Systems/System1 (ok)
+        - /redfish/v1/Systems/System1/Bios (not)
+        - /redfish/v1/Systems/System1/SecureBoot (not)
+        - /redfish/v1/Systems/System1/Processors (ok)
+          - /redfish/v1/Systems/System1/Processors/CPU1 (ok)
+        - /redfish/v1/Systems/System1/Memory (ok)
+          - /redfish/v1/Systems/System1/Memory/DIMM1 (ok) 
+          - /redfish/v1/Systems/System1/Memory/DIMM2 (ok)
+        - /redfish/v1/Systems/System1/EthernetInterfaces (not)    
     - redfish/v1/Chassis
     - redfish/v1/Managers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
