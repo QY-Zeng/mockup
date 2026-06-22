@@ -59,7 +59,13 @@
  - Event Log 自動產生，會自動記錄一些事件的發生
 
 
-
+# 接下來要做的事情
+  - 把前面的分支補完
+  - 然後看教授的建議有什麼，後面的評分有一部份會根據這邊的東西
+  - 7/1 有pre-domo(根據這邊的東西去做評分)
+    - Slides(or design document)
+    - Preliminary-Demo or Analysis
+    - Review meeting and Suggestion
 
 
 
