@@ -22,8 +22,8 @@
           - /redfish/v1/Systems/System1/Memory/DIMM1 (ok) 
           - /redfish/v1/Systems/System1/Memory/DIMM2 (ok)
         - /redfish/v1/Systems/System1/EthernetInterfaces (not)    
-    - redfish/v1/Chassis
-    - redfish/v1/Managers
+    - redfish/v1/Chassis (ok)
+    - redfish/v1/Managers (ok)
 
 
 
