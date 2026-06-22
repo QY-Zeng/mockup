@@ -21,8 +21,18 @@
         - /redfish/v1/Systems/System1/Memory (ok)
           - /redfish/v1/Systems/System1/Memory/DIMM1 (ok) 
           - /redfish/v1/Systems/System1/Memory/DIMM2 (ok)
-        - /redfish/v1/Systems/System1/EthernetInterfaces (not)    
+        - /redfish/v1/Systems/System1/EthernetInterfaces (not)
+        - /redfish/v1/Systems/System1/SimpleStorage (not)
+        - /redfish/v1/Systems/System1/GraphicsControllers (not)
+        - /redfish/v1/Systems/System1/USBControllers (not)
+        - /redfish/v1/Systems/System1/Certificates (not)
+        - /redfish/v1/Systems/System1/VirtualMedia (not)
+        - /redfish/v1/Systems/System1/LogServices (ok)
     - redfish/v1/Chassis (ok)
+      - /redfish/v1/Chassis/Chassis1
+        - /redfish/v1/Chassis/Chassis1/Thermal
+        - /redfish/v1/Chassis/Chassis1/Power
+        - /redfish/v1/Chassis/Chassis1/Sensors 
     - redfish/v1/Managers (ok)
 
 
