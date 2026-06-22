@@ -10,7 +10,7 @@
     - 但是目前還缺不少分支
 
 
-## 目前有的分支(還未寫完這邊的readme)
+## 目前有的分支(還未寫完這邊的readme)(ok代表目前有寫、not是還沒寫)
   - redfish/v1
     - redfish/v1/Systems (ok)
       - redfish/v1/Systems/System1 (ok)
@@ -29,12 +29,22 @@
         - /redfish/v1/Systems/System1/VirtualMedia (not)
         - /redfish/v1/Systems/System1/LogServices (ok)
     - redfish/v1/Chassis (ok)
-      - /redfish/v1/Chassis/Chassis1 (這邊目前也缺不少東西)
-        - /redfish/v1/Chassis/Chassis1/Thermal
-        - /redfish/v1/Chassis/Chassis1/Power
-        - /redfish/v1/Chassis/Chassis1/Sensors 
+      - /redfish/v1/Chassis/Chassis1 (ok)
+        - /redfish/v1/Chassis/Chassis1/Thermal (ok)
+        - /redfish/v1/Chassis/Chassis1/Power (ok)
+        - /redfish/v1/Chassis/Chassis1/Sensors (ok)
+        - /redfish/v1/Chassis/Chassis1/ThermalSubsystem (not)
+        - /redfish/v1/Chassis/Chassis1/PowerSubsystem (not)
+        - /redfish/v1/Chassis/Chassis1/EnvironmentMetrics (not)
+        - /redfish/v1/Chassis/Chassis1/Controls (not)
+        - /redfish/v1/Chassis/Chassis1/TrustedComponents (not)
     - redfish/v1/Managers (ok)
-
+        - /redfish/v1/Managers/BMC
+        - /redfish/v1/Managers/BMC/LogServices
+          - /redfish/v1/Managers/BMC/LogServices/EventLog
+            - /redfish/v1/Managers/BMC/LogServices/EventLog/Entries
+        - /redfish/v1/Managers/BMC/EthernetInterfaces
+          - /redfish/v1/Managers/BMC/EthernetInterfaces/eth0
 
 
 
