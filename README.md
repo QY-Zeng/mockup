@@ -29,7 +29,7 @@
         - /redfish/v1/Systems/System1/VirtualMedia (not)
         - /redfish/v1/Systems/System1/LogServices (ok)
     - redfish/v1/Chassis (ok)
-      - /redfish/v1/Chassis/Chassis1
+      - /redfish/v1/Chassis/Chassis1 (這邊目前也缺不少東西)
         - /redfish/v1/Chassis/Chassis1/Thermal
         - /redfish/v1/Chassis/Chassis1/Power
         - /redfish/v1/Chassis/Chassis1/Sensors 
