@@ -15,6 +15,7 @@
     - redfish/v1/Systems (ok)
       - redfish/v1/Systems/System1 (ok)
         - /redfish/v1/Systems/System1/Bios (not)
+          - /redfish/v1/Systems/System1/Bios/Settings (not)
         - /redfish/v1/Systems/System1/SecureBoot (not)
         - /redfish/v1/Systems/System1/Processors (ok)
           - /redfish/v1/Systems/System1/Processors/CPU1 (ok)
