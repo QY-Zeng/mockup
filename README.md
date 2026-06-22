@@ -10,7 +10,7 @@
     - 但是目前還缺不少分支
 
 
-## 目前有的分支
+## 目前有的分支(還未寫完這邊的readme)
   - redfish/v1
     - redfish/v1/Systems (ok)
       - redfish/v1/Systems/System1 (ok)
